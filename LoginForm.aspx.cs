@@ -32,7 +32,7 @@ public partial class LoginForm : System.Web.UI.Page
         }
         else
         {
-            ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Login Not Successfull')", true);
+            ScriptManager.RegisterClientScriptBlock(this, this.GetType(),"alertMessage", "alert('Login Not Successfull')", true);
         }
     }
 }
