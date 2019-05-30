@@ -25,7 +25,7 @@ public partial class doctorFind : System.Web.UI.Page
 
         xp.ExecuteNonQuery();
 
-        if (txtDeases.Text == "")
+        if (txtDeases.Text =="")
         {
             ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Please enter Deases')", true);
         }
