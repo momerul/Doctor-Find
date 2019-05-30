@@ -54,6 +54,6 @@ public partial class Doctor_Registration : System.Web.UI.Page
         txtHospitalAddress.Text = string.Empty;
         txtName.Text = string.Empty;
         txtMobile.Text = string.Empty;
-        RadioButtonList1.Text = string.Empty;
+        RadioButtonList1.Text =string.Empty;
     }
 }
