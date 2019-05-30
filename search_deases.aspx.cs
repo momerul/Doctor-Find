@@ -36,7 +36,7 @@ public partial class search_deases : System.Web.UI.Page
             da.SelectCommand = xp;
             DataSet ds = new DataSet();
             da.Fill(ds, "symptoms");
-            GridView1.DataSource = ds;
+            GridView1.DataSource =ds;
             GridView1.DataBind();
         }
 
